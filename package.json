@@ -9,7 +9,8 @@
     "lint:fix": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
     "format": "prettier --write src/**/*.{js,ts,jsx,tsx,json,css,md}",
     "format:check": "prettier --check src/**/*.{js,ts,jsx,tsx,json,css,md}",
-    "commit": "cz"
+    "commit": "cz",
+    "type-check": "tsc --noEmit"
   },
   "config": {
     "commitizen": {
