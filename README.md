@@ -46,3 +46,6 @@ pre-commit
     npx lint-staged
 
 delete all husky.sh
+npm install --save-dev husky lint-staged
+npx husky install
+npx husky add .husky/pre-commit "npx lint-staged"

@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix",
-    "format": "prettier --write 'src/**/*.{js,ts,jsx,tsx,json,css,md}'",
-    "format:check": "prettier --check 'src/**/*.{js,ts,jsx,tsx,json,css,md}'",
+    "lint": "eslint 'src/**/*.{ts,tsx,mjs,jsx}'",
+    "lint:fix": "eslint 'src/**/*.{ts,tsx,mjs,jsx}' --fix",
+    "format": "prettier --write 'src/**/*.{js,ts,jsx,tsx,json,css,md,html,mjs}'",
+    "format:check": "prettier --check 'src/**/*.{js,ts,jsx,tsx,json,css,md,html,mjs}'",
     "commit": "cz",
     "type-check": "tsc --noEmit"
   },
