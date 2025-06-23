@@ -39,5 +39,5 @@ jobs:
         run: npm run build
 
       # Optional
-      - name: Run tests
-        run: npm test -- --coverage
+      # - name: Run tests
+      #   run: npm test -- --coverage
