@@ -1,6 +1,5 @@
 'use client';
 import { useState } from 'react';
-import { data } from 'react-router-dom';
 
 export default function FormPage() {
   const [formData, setFormData] = useState({

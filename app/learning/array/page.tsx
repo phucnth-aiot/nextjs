@@ -1,5 +1,4 @@
 'use client';
-import react from 'react';
 import { calculateAverageScore, filterPassStudents, student } from './helpers';
 
 export default function StudentPage() {
